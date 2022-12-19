@@ -1,0 +1,400 @@
+*{
+    margin: 0%;
+}
+
+.logo img{
+    width: 80px;
+    padding-left: 20px;
+    
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white ;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:black;
+    
+    
+}
+.header{
+    background-image:url(img/body\ bullding.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* margin-left: 5px;
+    margin-right: 5px;
+     */
+    
+    
+}
+
+
+
+.header h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    /* text-align: left; */
+    padding-top: 240px;
+        
+
+}
+
+
+
+
+.menu{
+    display: flex;
+  justify-content: space-around;
+  background-color: rgb(232, 32, 32);
+ 
+}
+.menu img{
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    
+
+    
+} 
+
+.menu-headings{
+    font-size: 40px;
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px gray  ;
+}
+
+.menu .item1,.item2,.item3{
+   
+    border: 2px  black;
+    width: 300px;
+}
+.menu p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    color: white;
+}
+
+.menu h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+.footer{
+    
+   height: 30vh;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: x-small;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.icons i{
+    font-size: 30px;
+   
+}
+
+/* this is ourteam page code */
+
+.ot-header{
+    background-image: url(./img/training-load-960x540.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center ;
+}
+
+.ot-header h1{
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    margin-left: 40px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color: aliceblue;
+    width: 68%;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 10px;
+    
+}
+.gallery img{
+    width: 250px;
+    border-radius: 10px;
+    transition-property: transform;
+    transition-duration: 1s;
+
+}
+.gal-heading{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: rgb(5, 5, 5);
+    padding:50px;
+    text-shadow: 3px 3px gray;
+    
+    
+
+
+}
+.gallery img:hover {
+    transform: scale(1.2);
+
+}
+ 
+/* this is services  */
+
+.service-header{
+    background-image: url(./img/pexels-anush-gorak-1431282.jpg);
+    height: 100vh;
+    background-position: cover;background-repeat: no-repeat;
+background-position: center;
+   background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.service-header h1{
+    color: rgb(222, 223, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    margin-left:40px;
+    text-shadow: 5px 5px 6px;
+    background-color: rgb(113, 112, 112, 0.5);
+}
+
+/* What we do  */
+
+.what-we-do{
+    background-color: black;
+    color: white;
+}
+.what-we-do h1{
+    text-align: center;
+    font-size:50px;
+    font-family: sans-serif;
+    font-weight: thin;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.wwd-item{
+    display: flex;
+    /* background-color: gray; */
+    width: 80%;
+    margin: auto;
+}
+.what-we-do img{
+    width: 400px;
+    height: 100%;
+    border-radius: 5px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.389);
+    width: 50%;
+    border: 3px solid;
+}
+
+/* ABOUT US  */
+
+.about{
+    background-color: aqua;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about p{
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+   
+}
+.about h1{
+    font-family: monospace;
+    text-decoration: underline;
+    
+}
+
+.join-us-btn{
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+/* media quries */
+ 
+@media(max-width:576px){
+
+    .nav-links{
+        position: relative;
+        margin: 3px auto 0;
+        width: 350px;
+        height: 100px;
+        background-color: #533557;
+        overflow: hidden;
+    }
+
+    .nav-links li{
+        display: block;
+        flex-direction: column;
+    }  
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: blanchedalmond ;
+    }
+
+    .nav-links a{
+        text-decoration: none;
+        vertical-align: -40px;
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color:black;
+        
+    }
+
+    .header{
+        background-image:url(img/maxresdefault.jpg)  ;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover ;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+       
+        
+    }   
+    .header h1{
+        font-family: sans-serif;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: white;
+        text-align: left;
+        padding-top: 240px;
+      
+        
+    }
+    .menu{
+        display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: 180vh;
+      align-items: center;
+      margin-top: 12px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      margin-bottom:5px;
+      background-color: rgb(232, 32, 32);
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        background-color: aliceblue;
+        width: 68%;
+        margin: auto;
+        padding-top: 100px;
+        padding-left: 10px;
+        
+    }
+
+    .what-we-do{
+        background-color: black;
+        color: white;
+    }
+    .what-we-do h1{
+        text-align: center;
+        font-size:50px;
+        font-family: sans-serif;
+        font-weight: thin;
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+    .wwd-item{
+        display: flex;
+        /* background-color: gray; */
+        width: 80%;
+        margin: auto;
+        
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(250, 235, 215, 0.389);
+        width: 100%;
+        border: 3px solid;
+    }
+
+}
+@media(min-width:577px) and (max-width:768px) {
+    
+    /* home page  */
+
+
+
+
+}
+@media(min-width:769px) and (max-width:991px) {
+
+}
+@media(min-width:992px) and (max-width:1199px) {
+
+}
